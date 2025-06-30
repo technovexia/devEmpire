@@ -1,0 +1,105 @@
+You are an elite, award-winning AI web-designer + full-stack developer.
+
+Objective → Forge a flagship marketing site for “DevEmpire — The Empire of Development.”  
+The site must feel like a vast, shimmering digital empire: cinematic, 100 % 3-D, rich micro-interactions, yet performant and accessible.  
+Inspiration touch-stones: Apple Vision Pro landing, Awwwards “Site of the Month” winners, Bruno-Simon portfolio, Epic Games Unreal Engine site.
+
+========================= 1. BRAND CORE =========================
+• Mission line: “We forge code that conquers complexity.”  
+• Tagline: “Claim Your Throne in Tech.”  
+• Voice: confident, visionary, minimal copy, grand vocabulary.  
+• Visual metaphor: futuristic imperial city built from luminous circuits & data spires.
+
+========================= 2. DESIGN DNA =========================
+A. Color Palette  
+   – Imperial Midnight #0e1116 (main bg)  
+   – Royal Gold #f5b400 (CTAs, glowing accents)  
+   – Platinum Mist #e6e6e6 (headlines)  
+   – Veiled Cyan #1dc2ff (gradients, hover)  
+
+B. Typography  
+   – Monument Grotesk Variable for headings (weight-axis scroll morph).  
+   – Inter for body.  
+   – Display hero numeral font: “Orbitron.”
+
+C. 3-D & Motion Stack  
+   • Three.js + React-Three-Fiber + Drei helpers.  
+   • GSAP 3 + ScrollTrigger for timeline-based scroll scenes.  
+   • Lenis smooth-scroll (prefers-reduced-motion safe).  
+   • Lottie / Rive for icon micro-animations.  
+   • CSS Houdini for fluid gradient borders & text stroke shimmer.  
+   • WebGL shaders: noise-distorted displacement on hover (GPU optimized).  
+   • Spline integration allowed for fast hero model import.
+
+D. Interaction Rules  
+   – Parallax planetary layers; depth responds to gyro on mobile.  
+   – Cards tilt via tilt.js; buttons emit pulse on press.  
+   – Empire-map mini-game Easter egg (WASD to fly through city) loads after idle 10 s.  
+   – Cursor transforms into imperial sigil when over links.
+
+========================= 3. PAGE BLUEPRINTS =========================
+[HOME “/”]  
+  1. Sticky transparent nav ➜ auto-darken after 250 px.  
+  2. Hero (full viewport):  
+        – 3-D rotating citadel of data towers (WebGL, 60 fps).  
+        – Headline: “Welcome to DevEmpire.”  
+        – Sub: “Where businesses ascend to digital sovereignty.”  
+        – Dual CTAs: “Book a Strategy Call” / “Explore Empire.”  
+  3. Cinematic scroll-sections (horizontal snap):  
+        a. SERVICES — animated glyphs explode into code particles.  
+        b. PRODUCTS — carousel of 3-D product boxes; click = modal with Rive demo.  
+        c. TOOLS — code playground running in WebAssembly sandbox.  
+  4. Metrics counter overlay (projects, APIs, community) triggers once in view.  
+  5. Testimonials — 3-D hologram cards spin on drag/swipe.  
+  6. Universal CTA banner (glassmorphism).  
+  7. Immersive footer — star-field shader backdrop + sitemap columns.
+
+[SERVICES “/services”]  
+  • Grid of imperial obelisks; hover = reveal service blurb.  
+  • Scroll narrative: each service sphere floats in, lit by volumetric god-rays.  
+  • Sticky side timeline anchor nav.  
+  • CTA → Calendly embed.
+
+[PRODUCTS “/products”]  
+  • Hero: gilded rotating platform; featured product sits atop.  
+  • Toggle light/dark theme switch with animated sun/moon.  
+  • Tiered pricing cards (hover height raise, neon under-glow).  
+
+[TOOLS “/tools”]  
+  • Interactive codex: searchable list + real-time code demos (Monaco editor).  
+  • GitHub stars counter live-fetch.  
+
+[ABOUT “/about”]  
+  • 3-D timeline: orbit around rings labeled 2018-2025-… using mouse wheel.  
+  • Founder busts rendered as low-poly statues; click → biography overlay.
+
+[BLOG “/blog”]  
+  • MDX ready, cover images auto-depth-mapped for hover parallax.  
+
+[CONTACT “/contact”]  
+  • 3-step wizard form on marble plinth; live validation.  
+  • Dark-styled map with empire city-lights layer (Mapbox custom).
+
+========================= 4. TECH & PERFORMANCE =========================
+• Stack: Next.js 14 (app router) + RSC + Suspense.  
+• TailwindCSS w/ @tailwindcss/animate; postcss-nesting.  
+• Dynamic import + lazy hydration for 3-D scenes.  
+• Ship < 280 kB JS on first view; use code-splitting + tree-shaking.  
+• Use WebP/AVIF + srcset; compress GLTF via Draco/KTX2.  
+• Provide reduced-motion & static image fallbacks.  
+• Accessibility: aria-labels, logical tab order, prefers-reduced-data support.  
+• SEO: JSON-LD (Organization, Product, FAQ), OG/meta, sitemap.xml, robots.txt.  
+• Analytics: Plausible, load asynchronously.  
+• Security headers: CSP, HSTS, X-Frame-Options DENY.
+
+========================= 5. STARTER COPY =========================
+• Services intro: “We architect, engineer, and scale digital fortresses that endure.”  
+• Products intro: “EmpireKit — the modular SaaS core powering 400+ ventures.”  
+• Tools blurb: “Arm your squad with precision-crafted utilities—open-sourced, battle-tested.”  
+• CTA line (all pages): “Ascend with DevEmpire.”
+
+========================= 6. HAND-OFF =========================
+• Produce clean, commented code plus `/README.md` with build, dev, and deploy steps.  
+• Attach a short Loom walkthrough explaining scene structure & where to swap assets.
+
+Create every page, component, animation, shader, and placeholder content accordingly—resulting in a visually breathtaking, technically robust, fully 3-D “empire of development” website.
